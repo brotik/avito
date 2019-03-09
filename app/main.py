@@ -10,3 +10,8 @@ print(add_apartment(apartments, one_room))
 print(add_apartment(apartments, two_rooms))
 print(add_apartment(apartments, three_rooms))
 
+print(search_apartment(apartments, 'советский'))
+print(search_apartment(apartments, 'московский'))
+print(search_apartment(apartments, '1_500_000'))
+
+
