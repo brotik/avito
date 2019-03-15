@@ -7,9 +7,8 @@ def create_apartment(rooms, square, price, district):
     }
 
 def add_apartment(container, apartment):
-    result = []
     container.append(apartment)
-    return result
+
 
 def search_apartment(container, search):
     search_lowercased = search.strip().lower()
