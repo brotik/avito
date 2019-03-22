@@ -1,9 +1,9 @@
 def create_apartment(rooms, square, price, district):
     return {
-    'rooms': rooms,
-    'square': square,
-    'price': price,
-    'district': district
+        'rooms': rooms,
+        'square': square,
+        'price': price,
+        'district': district
     }
 
 def add_apartment(container, apartment):
